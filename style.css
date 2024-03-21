@@ -1,0 +1,31 @@
+.nav{
+    font-size: ;
+    display: flex;
+    justify-content:space-around;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.text1{
+    display: flex;
+    color: #212121;    
+}
+.ben{
+    font-size: 5;
+    color: #1E90FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: #1E90FF;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color: #1E90FF;
+    size: 5;
+}
+.rod{
+    display: flex;
+    justify-content: center;    
+}
