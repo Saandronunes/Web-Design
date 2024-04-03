@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "Autor" content="Sandro Nunes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
+        <a href="#">
+            <img src="img/banner.png" alt="banner da logo, paisagem de um parque" width="100%"  />
+        </a>
+    
+     <font size ="5"> 
+        <p class="nav">
+            <a href="index.html">HOME</a>
+            <a href="#pag-ben">BENEFÍCIOS</a>      
+            <a href="#pag-mod">MODALIDADES</a>      
+            <a href="#pag-trei">TREINOS</a>      
+            <a href="agentadamento.html">AGENDAMENTOS</a>      
+        </p>       
+        <hr>      
+    </font>         
+            
+        
+
+    <font face="Arial" size="5" color="#1E90FF"> 
+        <h1 align ="center">AGENDAMENTOS</h1>
+    </font>
+
+    <form  name="agentadamento" action="">
+        <label for="nome">Nome:</label> <br>
+            <input id="nome" required placeholder="Nome Completo" type="text" size="80"> <br>
+        <label  for="email">E-mail:</label> <br>
+            <input required id="email"  placeholder="Digete E-email" type="mailto" size="80"><br>
+        <label for="senha">Senha:</label> <br>
+            <input required id="senha"  placeholder="Digite sua senha" type="password" size="80"><br>
+        <label for="tel">Telefone:</label> <br>
+            <input required id="tel"  placeholder="99-99999-9999" type="tel" size="60"><br> <br>
+        <label for="date">Data:</label> 
+            <input required id="date"   type="date" >
+        <label for="nome">Horário:</label> 
+            <input required id="nome"   type="time">
+        <label for="aulas">Aulas:</label> 
+            <input required id="aulas" type="number" min="1" max="10" > <br>
+            <label for="niv">Nivel:</label> <br>
+            <select id="niv">
+                <option value="">Selecione</option>
+                <option value="">Iniciante</option>
+                <option value="">Básico</option>
+                <option value="">Intemediário</option>
+                <option value="">Avançado</option>
+            </select> <br><br>
+            
+        <fieldset>
+            <legend>Genêro</legend>
+            <input type="radio" name="genero"> <label for="Masculino">Masculino</label> <br>
+            <input type="radio" name="genero"> <label for="">Feminino</label> <br>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Atividades</legend>
+            <input type="checkbox" > <label for="">Muculação</label> <br>
+            <input type="checkbox" > <label for="">Pilates</label> <br>
+            <input type="checkbox" > <label for="">Corrida</label> <br>
+            <input type="checkbox" > <label for="">Yoga</label> <br>
+        </fieldset> <br>
+
+        <label for="mens">Mensagem: </label><br>
+        <textarea id="mens" cols="80" rows="6">
+
+        </textarea>
+        
+        <p>
+            <input type="submit" name="btn-enviar" value="Agendar">
+            <input type="reset" name="btn-reset" value="Cancelar">
+        </p>
+
+
+    </form>
+    <hr>
+        <p class="rod" > Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/sandro-nunes-82653218a/"> <strong> Sandro Nunes </strong>  </a>   - 2024</p>
+
+</body>
